@@ -37,10 +37,10 @@ float multiplicar(float a, float b) {
 
 void loop() {
   mostrarDatos();                 
-  delay(1000);
+  delay(10);
 
   float t1 = leerTemperatura();   
-  delay(1000);
+  delay(10);
   float t2 = leerTemperatura();
 
   float resultado = multiplicar(t1, t2);  
@@ -54,5 +54,5 @@ void loop() {
     Serial.println(t2);
   }
 
-  delay(1000);
+  delay(10);
 }
